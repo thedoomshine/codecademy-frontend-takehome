@@ -1,0 +1,45 @@
+{
+  "name": "multiple-choice-quiz-codecademy-full-time-frontend-takehome",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "11.1.1",
+    "@testing-library/jest-dom": "5.11.6",
+    "@testing-library/react": "11.2.0",
+    "@testing-library/user-event": "12.2.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "7.2.2",
+    "react-scripts": "^3.1.1",
+    "redux": "4.0.5",
+    "redux-mock-store": "1.5.4",
+    "redux-thunk": "2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "format": "prettier --write \"**/*.+(js|json|css|md|mdx|html)\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run build"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "prettier": "^1.15.2",
+    "husky": "^1.1.4",
+    "lint-staged": "^8.0.4"
+  },
+  "keywords": [],
+  "description": ""
+}
